@@ -1,0 +1,9 @@
+node_modules
+client/node_modules
+client/build
+client/public/config.json
+src/config_production.js
+servers.json
+servers_backup.json
+
+

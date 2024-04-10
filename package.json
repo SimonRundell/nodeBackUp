@@ -1,0 +1,26 @@
+{
+  "name": "cm-btb",
+  "version": "1.0.0",
+  "description": "Backup the Backups",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Simon Rundell for CodeMonkey Ltd",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "kill-port": "^2.0.1",
+    "socket.io": "^4.7.5",
+    "ssh2-sftp-client": "^10.0.3",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "nodemon": "^3.1.0"
+  }
+}

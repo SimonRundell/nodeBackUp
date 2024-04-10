@@ -1,0 +1,8 @@
+{
+    "expressPort": 63001,
+    "websocketPort": 63002,
+    "factsFilePath": "facts.json",
+    "serversFilePath": "servers.json",
+    "allowedOrigins": "*",
+    "factsSpeed": 10000
+}

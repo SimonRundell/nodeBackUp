@@ -1,0 +1,6 @@
+{
+    "backendUrl": "https://nodebackup.local",
+    "websocketUrl": "wss://nodebackup.local/ws",
+    "requestTimeout": 5000,
+    "retryAttempts": 3
+}

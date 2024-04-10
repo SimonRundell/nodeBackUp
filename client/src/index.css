@@ -1,0 +1,145 @@
+body {
+  background-color: #282c34;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 25px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.download-info {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 50%;
+  border: solid 1px #b6b5b5;
+  background-color: #282c34;
+  z-index: 1000;
+}
+
+.configuration {
+  width: 80vw;
+  margin: auto;
+  padding: 20px;
+  background-color: #333740;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.1);
+}
+
+.configuration-form-item {
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.configuration-input {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+
+.configuration-input-number {
+  width: 40%;
+  border-radius: 5px;
+  padding: 7px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+
+.configuration-button {
+  background-color: #808080;
+  border: none;
+  padding: 10px 20px;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+  width: fit-content;
+  align-self: flex-start;
+  grid-column: span 2;
+}
+
+.configuration-button:hover {
+  background-color: #A9A9A9;
+  border: 1px solid #000000;
+}
+
+.ant-collapse-header {
+  background-color: #808080;
+  color: #ffffff !important; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Style for the accordion header when hovered */
+.ant-collapse-header:hover {
+  background-color: #A9A9A9;
+}
+
+/* Style for the accordion content */
+.ant-collapse-content-box {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.ant-collapse-content-active {
+  background-color: #A9A9A9 !important;
+}
+
+/* Style for the form items */
+.ant-form-item-label > label {
+  color: #000000 !important;
+}
+
+.ant-form-item-row .ant-form-item-control-input {
+  text-align: right;
+}
+
+.ant-input-number-input-wrap {
+  text-align: center !important;
+}
+
+.configuration-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  background-color: #A9A9A9;
+}
+
+.button-span {
+  margin-right: 10px;
+}
+
+.delete-server {
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: -10px;
+  margin-left: auto;
+  padding-bottom: 10px;;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
